@@ -9,7 +9,9 @@ Write a for-loop that will iterate through 20 numbers (starting at 1 and ending 
 "Now serving 20."
 */
 
-console.log('doritos');
+for(var i = 0; i<21; i++){
+  console.log('Now serving' + i);
+}
 
 /* 2) Pop Charts
 Write a for-loop that will iterate through the topFive array below and console.log the following message:
